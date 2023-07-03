@@ -1,10 +1,11 @@
 import { io } from "socket.io-client";
+import { socketUrl } from "../config";
 
 let socket = null;
 
 export const establishConnection = (accessUser) => {
   if (accessUser) {
-    socket = io("http://localhost:3333");
+    socket = io(socketUrl);
     socket.emit("setup", accessUser !== null && accessUser);
     socket.on("connected", () => console.log("connected "));
   } else {
