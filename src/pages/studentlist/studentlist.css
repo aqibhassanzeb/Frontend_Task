@@ -1,0 +1,20 @@
+.unique-table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .unique-table thead th {
+    background-color: #f8f9fa;
+    border-bottom: none;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .unique-table tbody td {
+    background-color: #fff;
+  }
+  
+  .unique-table tbody tr:hover {
+    background-color: #f2f2f2;
+  }

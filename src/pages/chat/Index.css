@@ -1,0 +1,40 @@
+.chathistoryid{
+height: 60px;
+width: 95%;
+border:gray solid 2px;
+cursor: pointer;
+transition: 0.3s ease;
+background-color: "white";
+padding: 5px;
+position: relative;
+}
+.chathistoryid:hover{
+    background-color: #b1b1b1;
+}
+.messagediv{
+    border-radius: 5px;
+    width: fit-content;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(33, 39, 33);
+    color:white;
+    padding-bottom: 5px;
+}
+.message-position{
+    display: flex;
+    justify-content: end;
+}
+.message-time{
+    font-size: smaller;
+}
+.unread-badge{
+position: absolute;
+left: 90%;
+background-color: red;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+text-align: center;
+align-items: center;
+color: white;
+}

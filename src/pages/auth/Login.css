@@ -1,0 +1,25 @@
+.login_maindiv{
+    height: 100vh;
+}
+.login_headingdiv{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+.input_design{
+    width: 30%;
+}
+@media only  screen and (max-width: 600px ) and (min-width: 300px) {
+    .input_design{
+        width: 80%;
+    }
+}
+.google-button{
+    border: rgb(222, 222, 222) solid 2px !important;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
